@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class Problem2 {
+public class Physicsball {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         System.out.println("Enter the ball travel time in seconds: ");
