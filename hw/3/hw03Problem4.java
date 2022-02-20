@@ -4,7 +4,7 @@ public class hw03Problem4 {
         double distance; 
         double x; 
         double y;
-        do{
+        do{ // JA: What about solving without loops?
             x = Math.random() * 10 - 5;
             y = Math.random() * 10 - 5;
             distance = Math.sqrt(x*x + y*y);
