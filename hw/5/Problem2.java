@@ -1,6 +1,7 @@
 import java.util.*;
 public class Problem2 {
     
+    // JA: This function returns the wrong string
     public static String decimalToBinary(int value) {
 
         int[] binaryN = new int[11];
