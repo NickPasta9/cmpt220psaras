@@ -6,6 +6,7 @@ public class Problem3 {
         String str = input.nextLine();
         count(str);
     
+        // JA: You should not show the ones without counts
         for (int i = 0 ; i < count(str).length ; i++) {
             System.out.println("Digit " + i + " occurs " + count(str)[i] + " times.");
         }

@@ -12,6 +12,7 @@ public class Problem2 {
             }
         }
         
+        // JA: ??
         (x1y2 - y1x2) +	(x2y3 -y2x3) ..... + (xny1 - ynx1 )  /  2
         
         double area = 0; 
