@@ -1,6 +1,7 @@
 import java.util.Scanner;
 import java.util.ArrayList;
 
+// JA: This solution seems to remove duplicate weights
 public class Problem2 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
