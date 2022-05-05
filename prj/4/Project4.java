@@ -100,12 +100,11 @@ public class Project4 {
 
         catch(FileNotFoundException ex) {
             System.out.println("Unknown file");
-        }
-
         
             return babyArray; 
         
     }
+    
     private static BabyName findName(String name, int year, ArrayList<BabyName> names) {
         
         for(int i = 0 ; i < names.size(); i++) { // loop based on male names

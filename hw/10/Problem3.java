@@ -81,7 +81,7 @@ class Rational extends Number implements Comparable<Rational> {
         String[] substrings = s.split("/ | \\s+");
         int[] temp = new int[2];
         for (int i = 0; i < substrings.length; i++) {
-            temp[i] = Integer.parseInt(substrings[i]);
+            temp[i] = Integer.parseInt(substrings[i]); // JA: You have to trim it
         }
         long n = temp[0];
         long d = temp[1] != 0 ? temp[1] : 1;
