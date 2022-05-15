@@ -12,6 +12,7 @@ public class Project2 {
         input.close();
         java.util.Arrays.sort(numbers);
         int count = 1;
+        // JA: This logic will not give you the correct answer
         for(int i = 1; i < 10; i++){
             if(numbers[i] != numbers[i-1])
                 count++;
